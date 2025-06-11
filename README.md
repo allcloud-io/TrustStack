@@ -63,7 +63,6 @@ TrustStack delivers a comprehensive data perimeter, including Service Control Po
 
 ## Who Benefits from TrustStack?
 
-- **Government Agencies:** Securely process classified information while meeting mandates like DISA SRG Impact Levels 4-6.
 - **Defense Units:** Leverage military-grade encryption and rapid deployment templates for mission-critical scenarios.
 - **Regulated Enterprises:** Ensure secure handling of sensitive data in finance, healthcare, and critical infrastructure.
 - **Developers:** Access a generative AI-powered environment that enhances productivity while maintaining strict security guardrails.
