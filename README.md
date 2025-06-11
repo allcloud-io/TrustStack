@@ -1,38 +1,69 @@
 # TrustStack: Enabling Sensitive Workloads in the Public Cloud with Prevention-First Security and Builder Agility
 
-TrustStack is a prevention-first cybersecurity framework that enables highly regulated organizations, government agencies, and defense units to securely run sensitive workloads in AWS commercial regions. TrustStack was built in collaboration with the AWS Identity Services Team and Landing Zone Accelerator Service Team to combine military-grade standards with developer agility, ensuring sensitive workloads are protected without compromising the speed of innovation.
+TrustStack is a prevention-first cybersecurity framework enabling highly regulated organizations, government agencies, and defense units to securely run sensitive workloads in AWS commercial regions. Developed in close collaboration with the AWS Identity Services and Landing Zone Accelerator teams, TrustStack combines military-grade standards with developer agility—ensuring sensitive workloads are protected without compromising innovation or speed.
+
+---
 
 ## About TrustStack
 
-### Prevention-First Philosophy: Detection Isn't Enough
+### Prevention-First Philosophy
 
-At TrustStack, we believe that sensitive workloads cannot rely solely on detection mechanisms. Detection is reactive by nature, addressing threats after they occur. For mission-critical applications and sensitive data, this approach is insufficient. TrustStack puts prevention at the forefront, embedding robust guardrails and prescriptive controls directly into the cloud environment to stop unauthorized actions before they happen.
+**Detection isn't enough.** Traditional security models react to threats after they occur, which is insufficient for mission-critical applications and sensitive data. TrustStack puts prevention at the forefront, embedding robust guardrails and prescriptive controls directly into your cloud environment to block unauthorized actions before they happen.
 
-Sensitive workloads demand a proactive security approach that eliminates vulnerabilities before they can be exploited. TrustStack ensures that prevention is the foundation of its security architecture while retaining builders' agility to innovate and deploy applications seamlessly.
+- **Proactive Security:** Eliminates vulnerabilities before exploitation.
+- **Agility Retained:** Developers maintain velocity and flexibility while security is enforced automatically.
 
-### Why Prevention Matters for Sensitive Workloads
+### Why Prevention Matters
 
-Sensitive workloads in government, defense, and highly regulated industries operate in environments where a single security breach can have catastrophic consequences. A detection-only approach introduces unacceptable risk by allowing threats to materialize before countermeasures are deployed. Prevention-first security eliminates these vulnerabilities before they can be exploited.
+Sensitive workloads in government, defense, and regulated industries face catastrophic risk from even a single breach. Relying solely on detection introduces unacceptable risk by allowing threats to materialize before countermeasures are deployed. TrustStack flips this paradigm:
 
-TrustStack flips this paradigm by embedding preventive controls directly into the infrastructure:
+- **Prevention at the Source:** Blocks unauthorized actions before they occur, reducing reliance on incident response or forensic analysis.
+- **Developer-First:** Pre-built constructs enforce security policies without slowing down deployment cycles.
 
-- Unauthorized actions are blocked at the source, reducing reliance on reactive measures like incident response or forensic analysis.
-- Developers retain their agility through pre-built constructs that enforce security policies without slowing down application deployment cycles.
+## Key Differentiators
 
-This prevention-first approach ensures that sensitive workloads remain secure while enabling organizations to innovate confidently in the cloud.
+- **Prevention-First, Detection as Backup:** Robust prevention layer minimizes attack surfaces and eliminates vulnerabilities before exploitation. Detection mechanisms provide monitoring and alerting as a secondary defense.
 
-### Key Differentiators
+- **Guardrails-Aware CDK Construct Library:** Developers deploy applications securely within a “walled garden,” focusing on innovation while TrustStack enforces security policies in the background.
 
-1. **Preventive Controls First, Detection as Backup** - TrustStack ensures that sensitive workloads are shielded by a robust prevention layer, minimizing attack surfaces and eliminating potential vulnerabilities before they can be exploited. While detection mechanisms are integrated for monitoring and alerting, they serve as a secondary layer of defense—not the primary one.
+- **Prescriptive Data Perimeter:** Organization-wide data perimeters ensure only trusted identities access resources from approved networks, supporting regulatory compliance and operational efficiency.
 
-2. **Builders' Agility Through Guardrails-Aware CDK Construct Library** - TrustStack retains developer agility through its guardrails-aware CDK construct library, enabling builders to deploy applications securely within a "walled garden" environment. Developers can focus on innovation while TrustStack enforces security policies automatically in the background, ensuring compliance without slowing down application deployment cycles.
+- **Generative AI for Developer Productivity:** AI-driven environment accelerates productivity, automates repetitive tasks, and provides guardrails-aware coding suggestions—without compromising security.
 
-3. **Prescriptive Data Perimeter Implementation** - A fully prescriptive data perimeter ensures that sensitive data remains isolated and protected from unauthorized access or accidental exposure. This guarantees compliance with stringent regulatory requirements while maintaining operational efficiency.
+- **End-to-End Detective Controls:** Advanced monitoring delivers real-time threat detection and alerting, enabling seamless risk mitigation across cloud environments.
 
-4. **Generative AI for Developer Productivity** - Powered by TrustStack, developers gain access to a Generative AI-driven environment that accelerates productivity while enforcing security best practices. The AI provides guardrails-aware coding suggestions, automates repetitive tasks, and enhances deployment agility without compromising security.
+- **Pre-Provisioned Incident Response:** Ready-to-use incident response environment with NIST-based frameworks, SIEM integration, and automated playbooks for rapid breach response.
 
-5. **End-to-End Cloud-Native Detective Controls** - Advanced monitoring capabilities provide real-time threat detection and alerting, enabling organizations to identify and mitigate risks seamlessly across their cloud environments.
+- **AWS-Native Integration:** Deep collaboration with AWS Identity Services and Landing Zone Accelerator ensures seamless integration and alignment with AWS best practices.
 
-6. **Pre-Provisioned Incident Response Environment** - TrustStack includes a ready-to-use incident response environment, allowing teams to respond rapidly to breaches or anomalies without delays in setup or provisioning.
+## How TrustStack Works
 
-7. **Seamless Integration with AWS Services** - Built-in collaboration with AWS experts, TrustStack integrates natively with AWS Identity Services and other tools to provide a seamless security experience for builders and operators alike.
+### Prescriptive Data Perimeter Implementation
+
+TrustStack delivers a comprehensive data perimeter, including Service Control Policies (SCP), Resource Control Policies (RCP), VPC endpoint policies, and automated remediation controls—tailored to industry requirements and aligned with AWS best practices.
+
+### Guardrails-Aware Infrastructure as Code
+
+- **CDK Constructs & Terraform Modules:** Embed prevention-first security principles directly into development workflows, automatically enforcing security policies based on environment context provided by TrustStack’s metadata service.
+- **Workload Blueprints:** Pre-approved, end-to-end application architectures for rapid, secure deployment.
+- **Automated Environment Discovery:** The metadata service eliminates manual coordination, enabling self-service security and consistent policy enforcement.
+
+## Developer Experience
+
+- **GitFlow-Enabled Workflow:** Familiar, code-first development experience with automated security guardrails.
+- **Portal Flexibility:** Integrates with any Internal Developer Portal (Backstage, Humanitec, custom).
+- **Multi-Environment Promotion:** Automated pipelines ensure consistent security posture across development, staging, and production.
+- **Composition-Based Development:** Multiple abstraction levels support both granular resource management and comprehensive application blueprints.
+
+## Incident Response & Asset Management
+
+- **NIST-Based IR Framework:** Out-of-the-box SIEM integration, automated enrichment datasets, and full asset management for rapid incident response.
+- **Configuration Management Database (CMDB):** Real-time asset inventory, relationship mapping, and tagging strategies for rapid impact assessment and targeted remediation.
+- **Automated Deployment Reporting:** Instantly identifies affected workloads and owners for immediate, targeted responses to vulnerabilities.
+
+## Who Benefits from TrustStack?
+
+- **Government Agencies:** Securely process classified information while meeting mandates like DISA SRG Impact Levels 4-6.
+- **Defense Units:** Leverage military-grade encryption and rapid deployment templates for mission-critical scenarios.
+- **Regulated Enterprises:** Ensure secure handling of sensitive data in finance, healthcare, and critical infrastructure.
+- **Developers:** Access a generative AI-powered environment that enhances productivity while maintaining strict security guardrails.
