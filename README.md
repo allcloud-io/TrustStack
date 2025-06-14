@@ -1,6 +1,6 @@
 # TrustStack: Enabling Sensitive Workloads in the Public Cloud with Prevention-First Security and Builder Agility
 
-TrustStack is a prevention-first cybersecurity framework enabling highly regulated organizations, government agencies, and defense units to securely run sensitive workloads in AWS commercial regions. Developed in close collaboration with the AWS Identity Services and Landing Zone Accelerator teams, TrustStack combines military-grade standards with developer agility—ensuring sensitive workloads are protected without compromising innovation or speed.
+TrustStack is a prevention-first cybersecurity framework that enables highly regulated organizations, government agencies, and defense units to securely run sensitive workloads in AWS commercial regions. We’ve worked with teams such as the AWS Identity Services and Landing Zone Accelerator teams. TrustStack combines military-grade standards with developer agility, ensuring sensitive workloads are protected without compromising innovation or speed.
 
 ---
 
@@ -34,7 +34,7 @@ Sensitive workloads in government, defense, and regulated industries face catast
 
 - **Pre-Provisioned Incident Response:** Ready-to-use incident response environment with NIST-based frameworks, SIEM integration, and automated playbooks for rapid breach response.
 
-- **AWS-Native Integration:** Deep collaboration with AWS Identity Services and Landing Zone Accelerator ensures seamless integration and alignment with AWS best practices.
+- **AWS-Native Integration:** Built on AWS Best Practices in collaboration with AWS Identity Services and Landing Zone Accelerator to ensure seamless integration and alignment with AWS best practices.
 
 ## How TrustStack Works
 
