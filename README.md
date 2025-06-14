@@ -88,6 +88,6 @@ TrustStack's security controls are designed to complement and extend AWS's docum
 
 ## Who Benefits from TrustStack?
 
-- **Defense Units:** Leverage military-grade encryption and rapid deployment templates for mission-critical scenarios.
 - **Regulated Enterprises:** Ensure secure handling of sensitive data in finance, healthcare, and critical infrastructure.
+- **Defense Units:** Leverage military-grade encryption and rapid deployment templates for mission-critical scenarios.
 - **Developers:** Access a generative AI-powered environment that enhances productivity while maintaining strict security guardrails.
